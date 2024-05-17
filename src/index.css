@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+nav {
+    background-color: #F55A5A;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8em;
+    padding: .5em;
+}
