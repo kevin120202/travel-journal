@@ -1,7 +1,5 @@
 import React from "react"
 import '../index.css'
-import pathIcon from "../assets/images/Path.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Card(props) {
     return (
@@ -9,7 +7,7 @@ function Card(props) {
             <img src={props.item.imageUrl} alt="Image of travel location" className="location-img" />
             <div className="card-details">
                 <div>
-                    <h3>Japan</h3>
+                    <h3>{props.item.location}</h3>
                     <a href={props.item.googleMapsUrl}>View on Google Maps</a>
                 </div>
                 <h1>{props.item.title}</h1>
