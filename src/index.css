@@ -2,18 +2,72 @@ body {
     margin: 0;
 }
 
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    color: #2B283A;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
 h2 {
     font-weight: 500;
     font-size: 1.5rem;
+    color: white;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+a {
+    color: #918E9B;
+    font-size: .8em;
+}
+
+.dates {
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.description {
+    font-size: 1rem;
 }
 
 nav {
     background-color: #F55A5A;
-    color: white;
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: .8em;
-    padding: .5em;
+    padding: 1.5em;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.card {
+    height: 250px;
+    display: flex;
+    border: 1px solid black;
+    margin: 3em 0;
+}
+
+.card-details div {
+    display: flex;
+    gap: 1em;
+}
+
+.location-img {
+    width: 250px;
+    height: 100%;
 }

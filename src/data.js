@@ -1,5 +1,6 @@
 export default [
     {
+        id: 1,
         title: "Mount Fuji",
         location: "Japan",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -9,6 +10,7 @@ export default [
         imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
     },
     {
+        id: 2,
         title: "Eiffel Tower",
         location: "France",
         googleMapsUrl: "https://goo.gl/maps/YJENXjjXPdU2",
@@ -18,6 +20,7 @@ export default [
         imageUrl: "https://source.unsplash.com/JmuyB_LibRo"
     },
     {
+        id: 3,
         title: "Great Wall of China",
         location: "China",
         googleMapsUrl: "https://goo.gl/maps/2kPZjWjM4L42",
